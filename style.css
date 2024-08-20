@@ -32,6 +32,10 @@ body {
     width: 50%;
 }
 
+.wrapper .p-1 {
+    margin: 5px;
+}
+
 .wrapper h2 {
     font-size: 20px;
     text-align: center;
@@ -64,13 +68,13 @@ body {
 }
 
 .input-box input::placeholder {
-    color: #fff;
+    color: grey;
 }
 
 .wrapper .btn {
     width: 100%;
     height: 45px;
-    background: grey;
+    background: rgb(134, 127, 127);
     border: 2px solid #b8b6b685;
     outline: none;
     border-radius: 40px;
@@ -93,6 +97,7 @@ body {
     font-size: 16px;
     color: #fff;
     font-weight: 600;
+    text-align: center;
 }
 
 .wrapper .register-link {
@@ -113,19 +118,9 @@ body {
     font-weight: 600;
 }
 
-.register-link p a:hover {
-    text-decoration: underline;
-}
-
-.register-link a {
-    color: #fff;
-}
-
-.center-2 {
-    display: block;
-    margin-left: 10px;
-    margin-right: auto;
-    width: 18px;
-    height: 18px;
-
+.wrapper .img-2 {
+    justify-content: center;
+    position: relative;
+    top: 2.5px;
+    left: -20px;
 }
