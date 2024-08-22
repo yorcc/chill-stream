@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('daftar.png') no-repeat;
+    background: url('asset/daftar.png') no-repeat;
     background-position: center;
 }
 
